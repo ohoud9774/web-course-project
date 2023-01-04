@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+#bo {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /flex-direction: column;/
+  font-family: 'Montserrat', sans-serif;
+  height: 95vh;
+  margin: -10px 270px; 
+  text-align: center;
+  border:5px solid;
+  border-width: 6px;
+  border-color: skyblue;
+}
+
+  #sh {
+  width: 200px;
+  padding: 10px;
+  margin: 8px 0;
+  background:#eee;
+  text-align: center;
+  
+}
+
+#img {
+  width: 140px;
+  height: 140px;
+}
+
+#sn {
+  border: 1px solid #FFf;
+  background-color: #fe3f40;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 23px;
+}
+
+#sn:hover {
+  opacity:1;
+  background-color:#03a4ed;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.close {
+  position: absolute;
+  right: 310px;
+  top: 220;
+  /color: #000;/
+  font-size: 60px;
+  font-weight: bold;
+  color: #fe3f40 ;
+}
+
+.close:hover,
+.close:focus {
+  color: #03a4ed;
+  cursor: pointer;
+}
