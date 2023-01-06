@@ -1,10 +1,4 @@
-/* 
 
-TemplateMo 562 Space Dynamic
-
-https://templatemo.com/tm-562-space-dynamic
-
-*/
 
 /* ---------------------------------------------
 Table of contents
@@ -213,7 +207,7 @@ body {
 }
 
 
-}
+
 input[type=text], input[type=password] {
   width: 0%;
   padding: 12px 20px;
@@ -248,7 +242,7 @@ button:hover {
 }
 
 /* Extra styles for the cancel button */
-}
+
 .btnsubmit {
   background-color: #f44336;
  margin-left: 10px;
